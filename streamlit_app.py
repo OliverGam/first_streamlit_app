@@ -32,4 +32,5 @@ st.dataframe(mes_fromages_end)
 
 dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages_end.loc[:,'Département'].unique(),['HAUTE-SAONE'])
 
+st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)])
 
