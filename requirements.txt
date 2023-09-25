@@ -4,4 +4,4 @@ fuzzywuzzy
 python-Levenshtein
 geopandas
 folium
-pillow
+pil
