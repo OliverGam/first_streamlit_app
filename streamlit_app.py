@@ -34,4 +34,6 @@ dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_f
 
 st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)][['Département','NOM_FROMAGE','LAIT']].sort_values('Département'))
 
-#munster_image = Image.open(
+munster_image = Image.open('https://github.com/OliverGam/first_streamlit_app/blob/main/Munster_images.jpg')
+
+st.image(munster_image,caption = 'Voici un Munster')
