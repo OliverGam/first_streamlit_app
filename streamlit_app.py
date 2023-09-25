@@ -45,5 +45,5 @@ if st.button('Voir à quoi ressemble mon fromage'):
   except:
     print('Il n\'y a pas d\'image de ce fromage.')
     
-st_write(dep_select)
+st.write(dep_select)
 
