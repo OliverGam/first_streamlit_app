@@ -30,7 +30,7 @@ mes_fromages_end = mes_fromages_end[['NOM_FROMAGE','LAIT','Département']]
 st.title('Les départements producteurs de fromages AOP')
 #st.dataframe(mes_fromages_end)
 
-dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages_end.loc[:,'Département'].unique(),['HAUTE-SAONE'])
+dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages_end.loc[:,'Département'].unique().sort_values('Département'),['HAUTE-SAONE'])
 
 st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)][['Département','NOM_FROMAGE','LAIT']].sort_values('Département'))
 
