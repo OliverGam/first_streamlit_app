@@ -12,3 +12,8 @@ brute = pd.read_csv('https://raw.githubusercontent.com/OliverGam/first_streamlit
 data_brute = brute[['Département','Aire géographique','CI']]
 
 fromages_liste = pd.read_csv('https://raw.githubusercontent.com/OliverGam/first_streamlit_app/main/Streamlit_fromage.csv')
+
+for a,b in data_brute.iterrows():
+    for c,d in fromages_liste.iterrows():
+        if fuzz.partial_ratio(b['Aire géographique'],d['NOM_FROMAGE'])>85:
+                      data_brute.loc[a,'NOM_DU_FROMAGE'] = fromages_liste.loc[c,'NOM_FROMAGE']
