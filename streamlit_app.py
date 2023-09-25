@@ -27,8 +27,8 @@ import folium
 
 mes_fromages_end = pd.read_csv('https://raw.githubusercontent.com/OliverGam/first_streamlit_app/main/mes_fromages_end.csv')
 mes_fromages_end = mes_fromages_end[['NOM_FROMAGE','LAIT','Département']]
-st.title('Les fromages AOP')
-st.dataframe(mes_fromages_end)
+st.title('Les départements producteurs de fromages AOP')
+#st.dataframe(mes_fromages_end)
 
 dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages_end.loc[:,'Département'].unique(),['HAUTE-SAONE'])
 
