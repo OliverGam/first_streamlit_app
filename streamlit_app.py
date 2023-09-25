@@ -29,8 +29,8 @@ mes_fromages_end = pd.read_csv('https://raw.githubusercontent.com/OliverGam/firs
 mes_fromages_end = mes_fromages_end[['NOM_FROMAGE','LAIT','Département']]
 st.title('Les fromages AOP')
 st.dataframe(mes_fromages_end)
-
-#dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages_end.loc[:,'Département'],['Haute-Saône'])
+st.write(mes_fromages_end.loc[:,'Département'].unique())
+#dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages_end.loc[:,'Département'].unique(),['Haute-Saône'])
 
 
 
