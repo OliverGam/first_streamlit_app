@@ -37,3 +37,6 @@ st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)]
 munster_image = Image.open('Munster_images.jpg')
 
 st.image(munster_image,caption = 'Voici un Munster')
+
+
+
