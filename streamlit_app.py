@@ -43,7 +43,7 @@ if st.button('Voir à quoi ressemble mon fromage'):
         fromage = Image.open(b + '.jpg')
         st.image(fromage,caption = b)
   except:
-    print('Il n'y a pas d'image de ce fromage.')
+    print('Il n'y a pas d\'image de ce fromage.')
     
 
 
