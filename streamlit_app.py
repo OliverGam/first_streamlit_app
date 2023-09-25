@@ -6,7 +6,7 @@ from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
 import geopandas as gpd
 import folium
-
+from PIL import Image
 
 # brute = pd.read_csv('https://raw.githubusercontent.com/OliverGam/first_streamlit_app/main/Aire_production_AOP.csv',sep=';',encoding='latin-1')
 # data_brute = brute[['Département','Aire géographique','CI']]
@@ -34,3 +34,4 @@ dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_f
 
 st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)][['Département','NOM_FROMAGE','LAIT']].sort_values('Département'))
 
+#munster_image = Image.open(
