@@ -25,12 +25,12 @@ import folium
 #mes_fromages = mes_fromages_merge.drop(columns=['Aire géographique','NOM_DU_FROMAGE']).copy().reset_index(drop=True)
 #mes_fromages.drop_duplicates(inplace=True)
 
-# mes_fromgaes_end = pd.read_csv('https://raw.githubusercontent.com/OliverGam/first_streamlit_app/main/Streamlit_fromage.csv
+mes_fromages_end = pd.read_csv('https://raw.githubusercontent.com/OliverGam/first_streamlit_app/main/mes_fromages_end.csv')
 
 st.title('Les fromages AOP')
-st.dataframe(mes_fromages)
+st.dataframe(mes_fromages_end)
 
-dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages.loc[:,'Département'],['Haute-Saône'])
+dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages_end.loc[:,'Département'],['Haute-Saône'])
 
 
 
