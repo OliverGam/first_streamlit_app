@@ -1,0 +1,153 @@
+,NOM_FROMAGE,LAIT,Département
+0,Cantal,vache,AVEYRON
+1,Cantal,vache,CANTAL
+2,Cantal,vache,CORREZE
+3,Cantal,vache,HAUTE-LOIRE
+4,Cantal,vache,PUY-DE-DOME
+5,Fourme d’Ambert,vache,CANTAL
+6,Fourme d’Ambert,vache,LOIRE
+7,Fourme d’Ambert,vache,PUY-DE-DOME
+8,Saint-Nectaire,vache,CANTAL
+9,Saint-Nectaire,vache,PUY-DE-DOME
+10,Salers,vache,AVEYRON
+11,Salers,vache,CANTAL
+12,Salers,vache,CORREZE
+13,Salers,vache,HAUTE-LOIRE
+14,Salers,vache,PUY-DE-DOME
+15,Bleu du Vercors-Sassenage,vache,DROME
+16,Bleu du Vercors-Sassenage,vache,ISERE
+17,Fourme de Montbrison,vache,LOIRE
+18,Fourme de Montbrison,vache,PUY-DE-DOME
+19,Picodon,chèvre,ARDECHE
+20,Picodon,chèvre,DROME
+21,Picodon,chèvre,GARD
+22,Picodon,chèvre,VAUCLUSE
+23,Rigotte de Condrieu,chèvre,ARDECHE
+24,Rigotte de Condrieu,chèvre,LOIRE
+26,Rigotte de Condrieu,chèvre,RHONE
+28,Abondance,vache,HAUTE-SAVOIE
+29,Beaufort,vache,HAUTE-SAVOIE
+30,Beaufort,vache,SAVOIE
+31,Chevrotin,chèvre,HAUTE-SAVOIE
+32,Chevrotin,chèvre,SAVOIE
+33,Reblochon,vache,HAUTE-SAVOIE
+34,Reblochon,vache,SAVOIE
+35,Tome des Bauges,vache,HAUTE-SAVOIE
+36,Tome des Bauges,vache,SAVOIE
+37,Bleu de Gex Haut-Jura,vache,AIN
+38,Bleu de Gex Haut-Jura,vache,JURA
+39,Chaource,vache,AUBE
+40,Chaource,vache,YONNE
+41,Charolais,chèvre,ALLIER
+42,Charolais,chèvre,LOIRE
+43,Charolais,chèvre,RHONE
+44,Charolais,chèvre,SAONE-ET-LOIRE
+45,Comté,vache,AIN
+46,Comté,vache,DOUBS
+47,Comté,vache,HAUTE-SAVOIE
+48,Comté,vache,JURA
+49,Comté,vache,SAONE-ET-LOIRE
+50,Époisses,vache,COTE-D'OR
+51,Époisses,vache,HAUTE-MARNE
+52,Époisses,vache,YONNE
+53,Mâconnais,chèvre,RHONE
+54,Mâconnais,chèvre,SAONE-ET-LOIRE
+56,Mont d'Or,vache,DOUBS
+57,Morbier,vache,AIN
+58,Morbier,vache,DOUBS
+59,Morbier,vache,JURA
+60,Morbier,vache,SAONE-ET-LOIRE
+61,Banon,chèvre,ALPES-DE-HAUTE-PROVENCE
+62,Banon,chèvre,DROME
+63,Banon,chèvre,HAUTES-ALPES
+64,Banon,chèvre,VAUCLUSE
+65,Brousse du Rove,chèvre,BOUCHES-DU-RHONE
+66,Brousse du Rove,chèvre,VAR
+67,Brousse du Rove,chèvre,VAUCLUSE
+68,Brocciu,chèvre et/ou de brebis,CORSE-DU-SUD
+69,Brocciu,chèvre et/ou de brebis,HAUTE-CORSE
+70,Bleu des Causses,vache,AVEYRON
+71,Bleu des Causses,vache,GARD
+72,Bleu des Causses,vache,HERAULT
+73,Bleu des Causses,vache,LOT
+74,Bleu des Causses,vache,LOZERE
+75,Laguiole,vache,AVEYRON
+76,Laguiole,vache,CANTAL
+77,Laguiole,vache,LOZERE
+78,Pélardon,chèvre,AUDE
+79,Pélardon,chèvre,GARD
+80,Pélardon,chèvre,HERAULT
+81,Pélardon,chèvre,LOZERE
+82,Pélardon,chèvre,TARN
+83,Rocamadour,chèvre,AVEYRON
+84,Rocamadour,chèvre,CORREZE
+85,Rocamadour,chèvre,DORDOGNE
+86,Rocamadour,chèvre,LOT
+87,Rocamadour,chèvre,TARN-ET-GARONNE
+88,Roquefort,brebis,AUDE
+89,Roquefort,brebis,AVEYRON
+90,Roquefort,brebis,GARD
+91,Roquefort,brebis,HERAULT
+92,Roquefort,brebis,LOZERE
+93,Roquefort,brebis,TARN
+94,Chabichou du Poitou,chèvre,CHARENTE
+95,Chabichou du Poitou,chèvre,DEUX-SEVRES
+96,Chabichou du Poitou,chèvre,VIENNE
+97,Ossau-Iraty,brebis,HAUTES-PYRENEES
+98,Ossau-Iraty,brebis,PYRENEES-ATLANTIQUES
+99,Crottin de Chavignol,chèvre,CHER
+100,Crottin de Chavignol,chèvre,LOIRET
+101,Crottin de Chavignol,chèvre,NIEVRE
+102,Pouligny Saint-Pierre,chèvre,INDRE
+103,Sainte-Maure de Touraine,chèvre,INDRE
+104,Sainte-Maure de Touraine,chèvre,INDRE-ET-LOIRE
+106,Sainte-Maure de Touraine,chèvre,LOIR-ET-CHER
+108,Sainte-Maure de Touraine,chèvre,VIENNE
+109,Selles-sur-Cher,chèvre,CHER
+110,Selles-sur-Cher,chèvre,INDRE
+111,Selles-sur-Cher,chèvre,LOIR-ET-CHER
+112,Valençay,chèvre,CHER
+113,Valençay,chèvre,INDRE
+114,Valençay,chèvre,INDRE-ET-LOIRE
+115,Valençay,chèvre,LOIR-ET-CHER
+116,Camembert de Normandie,vache,CALVADOS
+117,Camembert de Normandie,vache,EURE
+118,Camembert de Normandie,vache,MANCHE
+119,Camembert de Normandie,vache,ORNE
+120,Livarot,vache,CALVADOS
+121,Livarot,vache,EURE
+122,Livarot,vache,ORNE
+123,Neufchâtel,vache,OISE
+124,Neufchâtel,vache,SEINE-MARITIME
+125,Pont-l’Évêque,vache,CALVADOS
+126,Pont-l’Évêque,vache,EURE
+127,Pont-l’Évêque,vache,MANCHE
+128,Pont-l’Évêque,vache,ORNE
+129,Maroilles,vache,AISNE
+130,Maroilles,vache,COTE-D'OR
+131,Maroilles,vache,NORD
+132,Brie de Melun,vache,AUBE
+133,Brie de Melun,vache,SEINE-ET-MARNE
+134,Brie de Melun,vache,YONNE
+135,Brie de Meaux,vache,AISNE
+136,Brie de Meaux,vache,AUBE
+137,Brie de Meaux,vache,HAUTE-MARNE
+138,Brie de Meaux,vache,HAUTS-DE-SEINE
+139,Brie de Meaux,vache,LOIRET
+140,Brie de Meaux,vache,MARNE
+141,Brie de Meaux,vache,MEUSE
+142,Brie de Meaux,vache,PARIS
+143,Brie de Meaux,vache,SEINE-ET-MARNE
+144,Brie de Meaux,vache,SEINE-SAINT-DENIS
+145,Brie de Meaux,vache,VAL-DE-MARNE
+146,Brie de Meaux,vache,YONNE
+147,Langres,vache,COTE-D'OR
+148,Langres,vache,HAUTE-MARNE
+149,Langres,vache,VOSGES
+150,Munster,vache,BAS-RHIN
+151,Munster,vache,HAUT-RHIN
+152,Munster,vache,HAUTE-SAONE
+153,Munster,vache,MEURTHE-ET-MOSELLE
+154,Munster,vache,MOSELLE
+155,Munster,vache,TERRITOIRE DE BELFORT
+156,Munster,vache,VOSGES
