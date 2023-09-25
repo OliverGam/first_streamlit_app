@@ -46,3 +46,5 @@ if st.button('Voir à quoi ressemble mon fromage'):
         video_file = open('nope_1.mp4', 'rb')
         video_bytes = video_file.read()
 
+video_file = open('nope_1.mp4', 'rb')
+video_bytes = video_file.read()
