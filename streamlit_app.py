@@ -36,11 +36,15 @@ st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)]
 
 st.button("Reset",type="primary")
 if st.button('Voir à quoi ressemble mon fromage'):
-  for a in dep_select:
-    mes_from_dep = mes_fromages_end[mes_fromages_end['Département']==a]
-    for b in mes_from_dep['NOM_FROMAGE']: 
-      fromage = Image.open(b + '.jpg')
-      st.image(fromage,caption = b)
+  try:
+    for a in dep_select:
+      mes_from_dep = mes_fromages_end[mes_fromages_end['Département']==a]
+      for b in mes_from_dep['NOM_FROMAGE']: 
+        fromage = Image.open(b + '.jpg')
+        st.image(fromage,caption = b)
+  else:
+    print('Il n'y a pas d'image de ce fromage.')
+    
 
 
 
