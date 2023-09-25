@@ -17,3 +17,11 @@ for a,b in data_brute.iterrows():
     for c,d in fromages_liste.iterrows():
         if fuzz.partial_ratio(b['Aire géographique'],d['NOM_FROMAGE'])>85:
                       data_brute.loc[a,'NOM_DU_FROMAGE'] = fromages_liste.loc[c,'NOM_FROMAGE']
+
+data_brute.drop(columns=['CI'],inplace=True)
+data_brute_merge = data_brute[~data_brute['NOM_DU_FROMAGE'].isna()].copy()
+data_brute_merge[(data_brute_merge['Aire géographique'].str.strip() != data_brute_merge['NOM_DU_FROMAGE'].str.strip())]
+mes_fromages_merge = fromages_liste.merge(data_brute_merge,how='left',left_on='NOM_FROMAGE',right_on='NOM_DU_FROMAGE').drop_duplicates()
+mes_fromages = mes_fromages_merge.drop(columns=['Aire géographique','NOM_DU_FROMAGE']).copy().reset_index(drop=True)
+mes_fromages.drop_duplicates(inplace=True)
+
