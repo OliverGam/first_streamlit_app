@@ -45,5 +45,5 @@ if st.button('Voir à quoi ressemble mon fromage'):
   except:
     print('Il n\'y a pas d\'image de ce fromage.')
     
-st.write(dep_select)
+st.write(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)]['NOM_FROMAGE'])
 
