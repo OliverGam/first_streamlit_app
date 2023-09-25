@@ -34,9 +34,9 @@ dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_f
 
 st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)][['Département','NOM_FROMAGE','LAIT']].sort_values('Département'))
 
-munster_image = Image.open('Munster_images.jpg')
-
-st.image(munster_image,caption = 'Voici un Munster')
+for a in dep_select:
+  fromage = Image.open(a||'.jpg')
+  st.image(fromage,caption = a)
 
 
 
