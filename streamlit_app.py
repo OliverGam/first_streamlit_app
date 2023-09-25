@@ -25,4 +25,8 @@ mes_fromages_merge = fromages_liste.merge(data_brute_merge,how='left',left_on='N
 mes_fromages = mes_fromages_merge.drop(columns=['Aire géographique','NOM_DU_FROMAGE']).copy().reset_index(drop=True)
 mes_fromages.drop_duplicates(inplace=True)
 
-st.write(mes_fromages)
+st.title('Les fromages AOP')
+st.dataframe(mes_fromages)
+
+
+
