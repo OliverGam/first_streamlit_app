@@ -43,7 +43,6 @@ if st.button('Voir à quoi ressemble mon fromage'):
             fromage = Image.open(b + '.jpg')
             st.image(fromage,caption = b)
     except:
-        no = Image.open('nope.gif')
-        st.write(no)
-        
+        video_file = open('nope_1.mp4', 'rb')
+        video_bytes = video_file.read()
 
