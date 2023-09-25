@@ -36,7 +36,7 @@ st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)]
 
 for a in dep_select:
   try:
-    fromage = Image.open(a||'.jpg')
+    fromage = Image.open(a + '.jpg')
     st.image(fromage,caption = a)
 
 
