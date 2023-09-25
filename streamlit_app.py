@@ -28,5 +28,7 @@ mes_fromages.drop_duplicates(inplace=True)
 st.title('Les fromages AOP')
 st.dataframe(mes_fromages)
 
+dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_fromages.loc[:,'Département'],['Haute-Saône'])
+
 
 
