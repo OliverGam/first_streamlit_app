@@ -2,7 +2,6 @@
 snowflake-connector-python
 fuzzywuzzy
 python-Levenshtein
-difflib
 geopandas
 folium
 
