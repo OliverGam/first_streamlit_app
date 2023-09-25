@@ -46,5 +46,6 @@ if st.button('Voir à quoi ressemble mon fromage'):
     print('Il n\'y a pas d\'image de ce fromage.')
     
 
-
+fr = Image.open('Morbier.jpg')
+st.image(fr)
 
