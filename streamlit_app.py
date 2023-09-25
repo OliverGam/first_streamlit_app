@@ -8,4 +8,4 @@ import geopandas as gpd
 import folium
 
 
-brute = pd.read_csv('https://github.com/OliverGam/first_streamlit_app/blob/main/Aire_production_AOP.csv',index_col=0)
+brute = pd.read_csv('https://github.com/OliverGam/first_streamlit_app/blob/main/Aire_production_AOP.csv',sep=';',encoding='latin-1',index_col=0)
