@@ -44,6 +44,6 @@ if st.button('Voir à quoi ressemble mon fromage'):
             st.image(fromage,caption = b)
     except:
         no = Image.open('nope.gif')
-        st.image(no,caption = 'Il n\'y a pas encore d\'image pour ce fromage !')
+        st.write(no))
         
 
