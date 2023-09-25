@@ -45,4 +45,4 @@ if st.button('Voir à quoi ressemble mon fromage'):
     except:
         video_file = open('nope_1.mp4', 'rb')
         video_bytes = video_file.read()
-        st.video(video_bytes,autoplay=True)
+        st.video(video_bytes,autoplay="true")
