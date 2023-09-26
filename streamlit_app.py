@@ -34,7 +34,7 @@ dep_select = st.multiselect('Quel département souhaitez-vous consulter ?',mes_f
 
 st.dataframe(mes_fromages_end[mes_fromages_end['Département'].isin(dep_select)][['Département','NOM_FROMAGE','LAIT']].sort_values('Département'))
 
-st.button("Reset",type="primary")
+st.button("Je ne veux plus voir ces photos !",type="primary")
 if st.button('Voir à quoi ressemble mon fromage'):
     try:
         for a in dep_select:
